@@ -1,0 +1,17 @@
+#include "main.h"
+/**
+ * _islower - checks for lowercase character.
+ *
+ * @c: integer type argument
+ *
+ * Return: 1 if c is lowercase else 0 if otherwise
+ **/
+int _islower(int c)
+{
+	if (c <= 'z')
+	{
+		return (1);
+	}
+	else
+		return (0);
+}
