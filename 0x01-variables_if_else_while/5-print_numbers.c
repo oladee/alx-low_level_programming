@@ -11,7 +11,7 @@ int main(void)
 int dee;
 for (dee = 0; dee < 10; dee++)
 {
-printf("%d", dee);
+printf("%d\n", dee);
 }
 return (0);
 }
