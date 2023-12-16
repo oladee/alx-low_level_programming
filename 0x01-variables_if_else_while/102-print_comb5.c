@@ -18,7 +18,7 @@ putchar((dim % 10) + '0');
 putchar(' ');
 putchar((nkm / 10) + '0');
 putchar((nkm % 10) + '0');
-if (dim == 9 && nkm == 9)
+if (dim == 98 && nkm == 99)
 {
 continue;
 }
