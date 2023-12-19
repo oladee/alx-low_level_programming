@@ -15,4 +15,8 @@ if (c < 0)
 {
 return (c * -1);
 }
+else
+{
+return (0);
+}
 }
