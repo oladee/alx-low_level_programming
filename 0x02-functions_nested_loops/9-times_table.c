@@ -11,9 +11,19 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0; j <= 9; j++)
 {
-int k;
+int k, l, m;
 k = i * j;
+if (k > 9)
+{
+l = k % 10;
+m = k - l / 10;
+_putchar(l + '0');
+_putchar(m + '0');
+}
+else
+{
 _putchar(k + '0');
+}
 if (j == 9)
 {
 continue;
