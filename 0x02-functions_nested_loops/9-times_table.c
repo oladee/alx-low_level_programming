@@ -17,20 +17,23 @@ if (k > 9)
 {
 l = k % 10;
 m = (k - l) / 10;
+_putchar(',');
+_putchar(' ');
 _putchar(m + '0');
 _putchar(l + '0');
 }
 else
 {
-_putchar(k + '0');
-}
-if (j == 9)
+if (j != 0)
 {
-continue;
-}
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
+}
+    
+_putchar(k + '0');
+
+}
 }
 _putchar('\n');
 }
