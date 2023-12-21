@@ -23,7 +23,7 @@ break;
 printf("%d, ", n);
 }
 }
-if (n <= 98)
+if (n < 98)
 {
 for (; n <= 98; n++)
 {
@@ -35,5 +35,10 @@ break;
 }
 printf("%d, ", n);
 }
+}
+else
+{
+printf("%d", n);
+printf("\n");
 }
 }
