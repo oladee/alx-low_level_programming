@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_to_98 - prints all natural numbers
@@ -10,43 +11,27 @@
 void print_to_98(int n)
 {
 int b, c, d;
-if (n > 98)
+if (n => 98)
 {
-for (b = n; b >= 98; b--)
+for (; n >= 98; n--)
 {
-c = b % 10;
-d = (b - c) / 10;
-_putchar(d + '0');
-_putchar(c + '0');
-if (b == 98)
-{
-break;
-}
-_putchar(',');
-_putchar(' ');
-}
-}
-if (n < 98)
-{
-for (b = n; b <= 98; b++)
-{
-c = b % 10;
-d = (b - c) / 10;
-_putchar(d + '0');
-_putchar(c + '0');
-if (b == 98)
-{
-break;
-}
-_putchar(',');
-_putchar(' ');
-}
-}
 if (n == 98)
 {
-c = n % 10;
-d = (n - c) / 10;
-_putchar(d + '0');
-_putchar(c + '0');
+printf("%d, ", n);
+break;
+}
+printf("%d, ", n);
+}
+}
+if (n <= 98)
+{
+for (; n <= 98; n++)
+{
+if (n == 98)
+{
+printf("%d, ", n);
+break;
+}
+printf("%d, ", n);
 }
 }
