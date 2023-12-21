@@ -20,6 +20,8 @@ if (c > 99)
 d = c % 10;
 e = (c / 10) % 10;
 f = c / 100;
+_putchar(',');
+_putchar(32);
 _putchar(f + '0');
 _putchar(e + '0');
 _putchar(d + '0');
