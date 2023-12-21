@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * print_times_table - prints the n times table, starting with 0.
  * @n: value to which time table should be generated to
@@ -17,14 +16,11 @@ for (b = 0; b <= n; b++)
 c = a * b;
 if (c > 99)
 {
-d = c % 10;
-e = (c / 10) % 10;
-f = c / 100;
 _putchar(',');
 _putchar(32);
-_putchar(f + '0');
-_putchar(e + '0');
-_putchar(d + '0');
+_putchar(c / 100 + '0');
+_putchar((c / 10) % 10 + '0');
+_putchar(c % 10 + '0');
 }
 else if (c > 9)
 {
