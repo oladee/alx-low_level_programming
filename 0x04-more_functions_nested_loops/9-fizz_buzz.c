@@ -14,6 +14,7 @@ for (a = 1; a < 101; a++)
 if (a % 5 == 0 && a % 3 == 0)
 {
 printf("FizzBuzz ");
+continue;
 }
 if (a % 5 == 0)
 {
@@ -29,4 +30,5 @@ printf("%d ", a);
 }
 }
 printf("\n");
+return (0);
 }
