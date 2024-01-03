@@ -2,10 +2,8 @@
 
 /**
  * swap_int- swap values of two variables
- * 
  * @a: first variable
  * @b: second variable
- * 
  * Return: Always void
 */
 
