@@ -14,7 +14,7 @@ while (src[index2++])
 {
 srcLen++;
 }
-for(index = 0; n <= srcLen; index++)
+for(index = 0; index <= n; index++)
 {
 dest[destLen++] = src[index];
 }
