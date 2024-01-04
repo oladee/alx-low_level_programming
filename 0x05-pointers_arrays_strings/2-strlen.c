@@ -11,10 +11,10 @@ int _strlen(char *s)
 char *d;
 int final;
 d = s;
-while(*d)
+while (*d)
 {
 d++;
 }
 final = d - s;
-return final;
+return (final);
 }
