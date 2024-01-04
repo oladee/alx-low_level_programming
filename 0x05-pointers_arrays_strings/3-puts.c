@@ -13,6 +13,6 @@ d = str;
 while(*d)
 {
 _putchar(*d);
-d++
+d++;
 }
 }
