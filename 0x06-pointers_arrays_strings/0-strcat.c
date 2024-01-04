@@ -9,26 +9,16 @@
 
 char *_strcat(char *dest, char *src)
 {
-char *dee, *dee2;
-char *dee3;
-dee = dest;
-dee3 = src;
-while(*dee != '\0')
+int destLen, index;
+destLen = 0;
+index = 0;
+while(*dest)
 {
-if(*dee == '\0')
+destLen++;
+}
+for(index = 0; *src; index++)
 {
-while (*dee3)
-{
-*dee2 += *dee3;
-dee3++;
+dest[destLen++] = src[index];
 }
-}
-else
-{
-*dee2 += *dee;
-dee++;
-}
-}
-*dest = *dee2;
-return *dee2;
+return dest;
 }
