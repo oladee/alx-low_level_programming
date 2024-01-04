@@ -8,8 +8,11 @@
 */
 int _strcmp(char *s1, char *s2)
 {
-int index, index2, s1len, s2len, index3;
-index, index2, s1len, s2len, index3 = 0;
+int index, s1len, s2len, index3;
+index = 0;
+s1len = 0;
+s2len = 0;
+index3 = 0;
 while (*s1)
 {
 s1len++;
