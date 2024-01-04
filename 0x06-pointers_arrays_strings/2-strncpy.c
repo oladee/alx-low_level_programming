@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncpy - function that copies a string.
  * @dest: destination string;
@@ -7,7 +6,6 @@
  * @n: Number of bytes to be copied
  * Return: Always return pointer to string
 */
-
 char *_strncpy(char *dest, char *src, int n)
 {
 int index;
