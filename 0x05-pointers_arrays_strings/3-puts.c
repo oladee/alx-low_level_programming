@@ -10,7 +10,7 @@ void _puts(char *str)
 {
 char *d;
 d = str;
-while(*d)
+while (*d)
 {
 _putchar(*d);
 d++;
