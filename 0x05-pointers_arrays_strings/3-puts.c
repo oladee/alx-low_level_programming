@@ -15,4 +15,5 @@ while(*d)
 _putchar(*d);
 d++;
 }
+_putchar('\n');
 }
