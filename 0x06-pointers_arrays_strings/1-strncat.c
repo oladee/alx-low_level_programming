@@ -1,21 +1,20 @@
 #include "main.h"
 char *_strncat(char *dest, char *src, int n)
 {
-int destLen, index, srcLen;
+int destLen, index, srcLen, index2;
 destLen = 0;
 srcLen = 0;
 index = 0;
-while (*dest)
+index2 = 0;
+while (dest[index++])
 {
 destLen++;
-dest++;
 }
-while (*src)
+while (src[index2++])
 {
 srcLen++;
-src++;
 }
-for(index = 0; n > srcLen; index++)
+for(index = 0; n < srcLen; index++)
 {
 dest[destLen++] = src[index];
 }
