@@ -13,7 +13,7 @@ int final;
 d = s;
 while(*d)
 {
-d++
+d++;
 }
 final = d - s;
 return final;
