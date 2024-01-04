@@ -10,11 +10,7 @@ while (dest[index++])
 {
 destLen++;
 }
-while (src[index2++])
-{
-srcLen++;
-}
-for(index = 0; index <= n && src[index]; index++)
+for(index = 0; index < n && src[index]; index++)
 {
 dest[destLen++] = src[index];
 }
