@@ -20,5 +20,5 @@ for(index = 0; *src; index++)
 {
 dest[destLen++] = src[index];
 }
-return dest;
+return (dest);
 }
